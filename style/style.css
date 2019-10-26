@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-wrapper {
+  overflow: hidden;
+}
+
+.inner-wrapper {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.inner-wrapper .image {
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background-image: url(../img/DSC01995-small.jpg);
+  background-size: cover;
+  mix-blend-mode: screen;
+  background-blend-mode: darken;
+}
+
+.inner-wrapper .image.color-r {
+  background-color: red;
+}
+
+.inner-wrapper .image.color-g {
+  background-color: lime;
+}
+
+.inner-wrapper .image.color-b {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
